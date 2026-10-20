@@ -107,7 +107,7 @@ else if (input == "altkarmapass") {
   }
   else {
     eKarman = false;
-    Serial.println("NOW IS FALSE = eKerman");
+    Serial.println("NOW IS FALSE = eKarman");
   }
 }
 else if (input == "leo") {
@@ -194,11 +194,11 @@ if (LEO) {
     // YOUR EARLY LEO TASK
     karman = true;
     preferences.putBool("karman", karman);
-    retStr += "Kerman line\n";
+    retStr += "Karman line\n";
   }
   if (starttask) {
     // HERE, PUT ALL YOUR TASKS THAT WILL BE EXECUTED IN SPACE
-    // Packs all known sersor and temp outputs and terminal outputs to earth.json
+    // Packs all known sensor and temp outputs and terminal outputs to earth.json
     // EDIT THIS PART FOR YOUR CUSTOM SYSTEM AND READS
     retStr += "CPU Temp: " + String(tempC) + "\n" + "Sent logs \n";
     // ADD OTHER THINGS TO THE RETSTR FOR YOUR MODULE OUTPUTS THEN SEND IT TO EARTH
